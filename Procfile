@@ -1,1 +1,1 @@
-web: gunicorn Analyze:app --timeout 300
+web: gunicorn app:app --timeout 500
