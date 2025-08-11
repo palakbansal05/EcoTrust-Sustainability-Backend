@@ -6,3 +6,4 @@ Requests==2.32.4
 scrapy==2.13.3
 tldextract==5.3.0
 gunicorn
+flask-cors
