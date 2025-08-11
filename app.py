@@ -11,7 +11,7 @@ CORS(app)
 def extract_company_name(url):
     domain = urlparse(url).netloc.replace("www.", "")
     return domain.split('.')[0].lower()
-@app.route('/'):
+@app.route('/')
 def home():
     return "App is running"
     
